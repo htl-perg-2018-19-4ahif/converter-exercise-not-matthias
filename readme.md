@@ -60,6 +60,9 @@ Simple unit converter. Can be used with the `smartcar-unit` library or with the 
 | us gallon | `usgal` `usgallon` `usgallons` |
 | imperial gallon | `gal` `gallon` `gallons` |
 
+> **Source:** <a href="https://github.com/smartcar/unit" style="text-decoration:none; color: black;">https://github.com/smartcar/unit</a>
+
+
 ### WolframAlpha
 
 Almost every existing data type. 
