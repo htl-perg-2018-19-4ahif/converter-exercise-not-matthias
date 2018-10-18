@@ -1,10 +1,7 @@
-const conversions = {
-    'm': 1,
-    'cm': .01,
-    'kg': 1,
-    'g': .001,
-};
-let result = 'Invalid parameters';
-if (!isNaN(process.argv[2]) && conversions[process.argv[3]] && process.argv[4] === 'to' && conversions[process.argv[5]])
-    result = `${process.argv[2]} ${process.argv[3]} are ${process.argv[2] * conversions[process.argv[3]] / conversions[process.argv[5]]} ${process.argv[5]}`;
-console.log(result);
+const unit = require('smartcar-unit');
+
+try {
+    console.log(`${process.argv[2]} ${process.argv[3]} are ${unit(process.argv[2], process.argv[3]).as(process.argv[5])} ${process.argv[5]}`);
+} catch (e) {
+    console.log('Invalid parameters');
+}
