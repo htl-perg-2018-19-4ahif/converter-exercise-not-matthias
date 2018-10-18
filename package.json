@@ -1,10 +1,13 @@
 {
-  "name": "9030-converter",
+  "name": "converter-exercise-not-matthias",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/convert.js",
   "scripts": {
-    "test": "jasmine"
+    "start": "node src/convert.js",
+    "rest": "node src/rest-convert.js",
+    "test": "jasmine",
+    "help": "npm start <number> <unit> to <new_unit>"
   },
   "author": "",
   "license": "ISC",
