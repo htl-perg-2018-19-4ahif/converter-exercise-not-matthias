@@ -21,7 +21,6 @@ Simple unit converter. Can be used with the `smartcar-unit` library or with the 
 ## Supported Units
 
 ### smartcar-unit
-<center>
 
 | Distance | aliases |
 |----------|---------|
@@ -61,7 +60,6 @@ Simple unit converter. Can be used with the `smartcar-unit` library or with the 
 | us gallon | `usgal` `usgallon` `usgallons` |
 | imperial gallon | `gal` `gallon` `gallons` |
 
-</center>
 ### WolframAlpha
 
 Almost every existing data type. 
