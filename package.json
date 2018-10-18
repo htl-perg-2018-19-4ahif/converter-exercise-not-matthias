@@ -11,5 +11,8 @@
   "devDependencies": {
     "jasmine": "^3.2.0",
     "jasmine-spec-reporter": "^4.2.1"
+  },
+  "dependencies": {
+    "smartcar-unit": "^2.0.0"
   }
 }
