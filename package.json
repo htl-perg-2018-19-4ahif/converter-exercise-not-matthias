@@ -13,6 +13,8 @@
     "jasmine-spec-reporter": "^4.2.1"
   },
   "dependencies": {
+    "libxmljs": "^0.19.5",
+    "node-fetch": "^2.2.0",
     "smartcar-unit": "^2.0.0"
   }
 }
